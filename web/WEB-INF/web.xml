@@ -12,6 +12,10 @@
         <servlet-name>Ejercicio3</servlet-name>
         <servlet-class>Ejercicio3.Ejercicio3</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Eje4</servlet-name>
+        <servlet-class>Eje4.Eje4</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Calculo</servlet-name>
         <url-pattern>/NewServlet</url-pattern>
@@ -24,12 +28,16 @@
         <servlet-name>Ejercicio3</servlet-name>
         <url-pattern>/Ejercicio3</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Eje4</servlet-name>
+        <url-pattern>/Eje4</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30
         </session-timeout>
     </session-config>
     <welcome-file-list>
-        <welcome-file>eje3/ejercicio3.html</welcome-file>
+        <welcome-file>Eje4/Eje4.html</welcome-file>
     </welcome-file-list>
 </web-app>
