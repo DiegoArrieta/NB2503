@@ -45,7 +45,7 @@ public class MetodoEjercicio3 {
             return acum;
         }
     public int elevado(int a, int b){
-    return a*b;
+    return a^b;
     }
     public String numMayor(int a, int b){
         String mayor="";
