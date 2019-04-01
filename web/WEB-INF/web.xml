@@ -8,6 +8,10 @@
         <servlet-name>Trabajador</servlet-name>
         <servlet-class>Trabajador</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Ejercicio3</servlet-name>
+        <servlet-class>Ejercicio3.Ejercicio3</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Calculo</servlet-name>
         <url-pattern>/NewServlet</url-pattern>
@@ -16,12 +20,16 @@
         <servlet-name>Trabajador</servlet-name>
         <url-pattern>/Trabajador</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Ejercicio3</servlet-name>
+        <url-pattern>/Ejercicio3</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30
         </session-timeout>
     </session-config>
     <welcome-file-list>
-        <welcome-file>trabajador.html</welcome-file>
+        <welcome-file>eje3/ejercicio3.html</welcome-file>
     </welcome-file-list>
 </web-app>
